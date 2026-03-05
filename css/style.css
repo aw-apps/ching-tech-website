@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 :root {
-  --yellow: #3137fd;
-  --black: #111;
+  --yellow: #e87722;
+  --black: #1a3a5c;
   --white: #fff;
   --light-color: #666;
   --light-bg: #eee;
@@ -786,6 +786,19 @@ section {
   font-size: 2.5rem;
   color: var(--black);
   text-transform: capitalize;
+}
+
+.contact .row form .contact-detail {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding: 0.8rem 0;
+  border-bottom: var(--border);
+  line-height: 1.8;
+}
+
+.contact .row form .contact-detail i {
+  color: var(--yellow);
+  margin-right: 0.8rem;
 }
 
 .contact .row form .box {
