@@ -533,6 +533,7 @@ section {
   -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
+  align-items: stretch;
 }
 
 .services .box-container .box {
@@ -542,6 +543,13 @@ section {
   -webkit-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
   border: var(--border);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .services .box-container .box:hover img {
