@@ -104,6 +104,13 @@ section {
           justify-content: space-between;
   z-index: 1000;
   background: var(--white);
+  -webkit-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+
+.header.scrolled {
+  -webkit-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .header .logo {
