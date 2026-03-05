@@ -1,5 +1,6 @@
 let navbar = document.querySelector('.header .navbar');
 let contactInfo = document.querySelector('.contact-info');
+let header = document.querySelector('.header');
 
 document.querySelector('#menu-btn').onclick = () =>{
    navbar.classList.toggle('active');
@@ -16,6 +17,11 @@ document.querySelector('#close-contact-info').onclick = () =>{
 window.onscroll = () =>{
    navbar.classList.remove('active');
    contactInfo.classList.remove('active');
+   if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+   } else {
+      header.classList.remove('scrolled');
+   }
 }
 
 var swiper = new Swiper(".home-slider", {
