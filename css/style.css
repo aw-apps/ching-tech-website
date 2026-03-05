@@ -816,6 +816,22 @@ section {
   margin-right: 0.8rem;
 }
 
+.contact .row form .inquiry-btn {
+  display: block;
+  text-align: center;
+  margin: 1.5rem 0;
+  background: var(--yellow);
+  color: var(--black);
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.contact .row form .inquiry-btn:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
 .contact .row form .box {
   margin: 0.7rem 0;
   width: 100%;
