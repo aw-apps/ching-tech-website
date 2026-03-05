@@ -941,8 +941,15 @@ section {
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .header .navbar a {
-    display: block;
-    margin: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 44px;
+    padding: 0.8rem 2rem;
+    margin: 0;
   }
 }
 
